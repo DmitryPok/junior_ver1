@@ -17,17 +17,28 @@ public class Square {
     public int[] calculate(int bound) {
 
         int[] rst = new int[bound];
+        int[] rsl = new int[bound - 1];
         System.out.println(rst.length);
 
         // заполнить массив через цикл элементами от 1 до bound возведенные в квадрат
-        for (int item = 1; item < rst.length; item++) {
-            rst[item] = item * item;
-            System.out.println(rst[item]);
+        for (int rslStep = 0; rslStep < rsl.length; rslStep++) {
+            for (int rstStep = 1; rstStep < rst.length; rstStep++) {
+                rst[rstStep] = rstStep * rstStep;
+            }
+            rsl[rslStep] = rst[rslStep + 1];
 
         }
+        for (int item = 0; item < rsl.length; item++) {
+            System.out.println(rsl[item]);
+        }
 
-        return rst;
+        return rsl;
 
     }
 
+    public static void main(String[] args) {
+        Square sqr = new Square();
+        sqr.calculate(9);
+
+    }
 }
