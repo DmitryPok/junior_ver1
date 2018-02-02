@@ -14,11 +14,10 @@ public class MatrixTest {
         int size = 4;
         int[][] result = matr.multiple(size);
         int[][] expected = {
-                {0, 0, 0, 0, 0},
-                {0, 1, 2, 3, 4},
-                {0, 2, 4, 6, 8},
-                {0, 3, 6, 9, 12},
-                {0, 4, 8, 12, 16}
+                {1, 2, 3, 4},
+                {2, 4, 6, 8},
+                {3, 6, 9, 12},
+                {4, 8, 12, 16}
         };
         assertThat(result, is(expected));
     }
