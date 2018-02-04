@@ -18,11 +18,9 @@ public class Square {
 
         int[] rst = new int[bound];
         int[] rsl = new int[bound - 1];
-        System.out.println(rst.length);
-
         // заполнить массив через цикл элементами от 1 до bound возведенные в квадрат
         for (int rslStep = 0; rslStep < rsl.length; rslStep++) {
-            for (int rstStep = 1; rstStep < rst.length; rstStep++) {
+            for (int rstStep = 0; rstStep < rst.length; rstStep++) {
                 rst[rstStep] = rstStep * rstStep;
             }
             rsl[rslStep] = rst[rslStep + 1];
@@ -38,7 +36,7 @@ public class Square {
 
     public static void main(String[] args) {
         Square sqr = new Square();
-        sqr.calculate(9);
+        sqr.calculate(5);
 
     }
 }
