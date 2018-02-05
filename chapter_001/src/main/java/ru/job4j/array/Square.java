@@ -16,21 +16,16 @@ public class Square {
 
     public int[] calculate(int bound) {
 
-        int[] rst = new int[bound];
-        int[] rsl = new int[bound - 1];
+        int[] rst = new int[bound +1];
+
         // заполнить массив через цикл элементами от 1 до bound возведенные в квадрат
-        for (int rslStep = 0; rslStep < rsl.length; rslStep++) {
-            for (int rstStep = 0; rstStep < rst.length; rstStep++) {
-                rst[rstStep] = rstStep * rstStep;
-            }
-            rsl[rslStep] = rst[rslStep + 1];
-
-        }
-        for (int item = 0; item < rsl.length; item++) {
-            System.out.println(rsl[item]);
+        for (int i = 1; i < rst.length; i++) {
+            rst[i] = i * i;
+            rst[i - 1] = rst[i];
+            System.out.println(rst[i]);
         }
 
-        return rsl;
+        return rst;
 
     }
 
