@@ -37,6 +37,6 @@ public class Matrix {
 
     public static void main(String[] args) {
         Matrix matrix = new Matrix();
-        matrix.multiple(4);
+        matrix.multiple(9);
     }
 }
