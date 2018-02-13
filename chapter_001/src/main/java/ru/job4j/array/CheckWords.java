@@ -1,4 +1,4 @@
-package ru.ru.job4j.array;
+package ru.job4j.array;
 
 /**
  * array.
@@ -24,6 +24,7 @@ public class  CheckWords {
                     wordCheker++;
                     if (wordCheker == smallWord.length) {
                         verdict = true;
+                        break;
                     }
                 }
             }
