@@ -22,12 +22,15 @@ public class  CheckWords {
             for (int indx = 0; indx < bigWord.length; indx++) {
                 if (smallWord[ind] == bigWord[indx]) {
                     wordCheker++;
-                    if (wordCheker == smallWord.length) {
-                        verdict = true;
-                        break;
-                    }
+
                 }
             }
+
+            if (wordCheker == smallWord.length) {
+                verdict = true;
+                break;
+            }
+
         }
         return verdict;
     }
