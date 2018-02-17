@@ -1,5 +1,4 @@
-package ru.ru.job4j.loop;
-
+package ru.job4j.loop;
 /**
  * Factorial.
  *
@@ -7,19 +6,17 @@ package ru.ru.job4j.loop;
  * @version $Id$
  * @since 0.1
  */
-
 public class Board {
-
     /**
      * determine lenght, width.
      */
     private int length, width;
-/**
- * Point board.
- * @param  length length.
- * @param  width width.
- * @return return sum value.
- */
+    /**
+     * Point board.
+     * @param  length length.
+     * @param  width width.
+     * @return return sum value.
+     */
     public String paint(int length, int width) {
         String lineSep = System.getProperty("line.separator");
         String line = "";

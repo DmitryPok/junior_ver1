@@ -1,5 +1,4 @@
-package ru.ru.job4j.array;
-
+package ru.job4j.array;
 /**
  * array.
  *
@@ -7,9 +6,7 @@ package ru.ru.job4j.array;
  * @version $Id$
  * @since 0.1
  */
-
 public class Turn {
-
     /**
      * Back array.
      * @param  array array.

@@ -1,5 +1,4 @@
-package ru.ru.job4j.array;
-
+package ru.job4j.array;
 import java.util.Arrays;
 /**
  * array.
@@ -8,16 +7,13 @@ import java.util.Arrays;
  * @version $Id$
  * @since 0.1
  */
-
 public class  ArrayDuplicate {
-
     /**
      * Array duplicate.
      *
      * @param array array.
      * @return return rotarr value.
      */
-
     public String[] remove(String[] array) {
         int uniq = array.length;
         for (int out = 0; out < uniq; out++) {
@@ -31,7 +27,6 @@ public class  ArrayDuplicate {
             }
         return Arrays.copyOf(array, uniq);
     }
-
     public static void main(String[] args) {
         ArrayDuplicate dupl = new ArrayDuplicate();
         String[] first = {"Привет", "Мир", "Привет", "Супер", "Мир"};

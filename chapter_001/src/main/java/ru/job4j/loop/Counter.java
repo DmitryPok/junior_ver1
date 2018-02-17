@@ -1,5 +1,4 @@
-package ru.ru.job4j.loop;
-
+package ru.job4j.loop;
 /**
  * Loop.
  *
@@ -7,7 +6,6 @@ package ru.ru.job4j.loop;
  * @version $Id$
  * @since 0.1
  */
-
 public class Counter {
     /**
      * count all .
@@ -15,7 +13,6 @@ public class Counter {
      * @param finish finish.
      * @return return sum value.
      */
-
     public int add(int start, int finish) {
         int sum = 0;
         for (int ind = start; ind <= finish; ind++) {
@@ -25,5 +22,4 @@ public class Counter {
         }
         return sum;
     }
-
 }

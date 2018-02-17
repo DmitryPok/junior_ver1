@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * array.
  *
@@ -7,9 +6,7 @@ package ru.job4j.array;
  * @version $Id$
  * @since 0.1
  */
-
 public class RotateArray {
-
     /**
      * Bublesort array.
      *
@@ -27,5 +24,4 @@ public class RotateArray {
         }
         return rotarr;
     }
-
 }

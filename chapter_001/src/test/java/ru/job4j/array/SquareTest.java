@@ -13,7 +13,7 @@ public class SquareTest {
         Square square = new Square();
         int bound = 6;
         int[] result = square.calculate(bound);
-        int[] expected = {1, 4, 9, 16, 25};
+        int[] expected = {1, 4, 9, 16, 25, 36};
         assertThat(result, is(expected));
     }
 

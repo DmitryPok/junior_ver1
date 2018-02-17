@@ -1,5 +1,4 @@
-package ru.ru.job4j.loop;
-
+package ru.job4j.loop;
 /**
  * Loop.
  *
@@ -10,7 +9,6 @@ package ru.ru.job4j.loop;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Loop test.
  */
@@ -23,7 +21,6 @@ public class BoardTest {
         String expected = String.format("x x%s x %sx x%s", line, line, line);
         assertThat(result, is(expected));
     }
-
     @Test
     public void  whenPaintBoardWithWidthFiveAndHeightFourThenStringWithFiveColsAndFourRows() {
         Board board = new Board();

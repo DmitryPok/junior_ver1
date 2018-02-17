@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * array.
  *
@@ -22,15 +21,12 @@ public class  CheckWords {
             for (int indx = 0; indx < bigWord.length; indx++) {
                 if (smallWord[ind] == bigWord[indx]) {
                     wordCheker++;
-
                 }
             }
-
             if (wordCheker == smallWord.length) {
                 verdict = true;
                 break;
             }
-
         }
         return verdict;
     }
@@ -39,6 +35,5 @@ public class  CheckWords {
         String origin = "Привет";
         String sub = "иве";
         System.out.println(cheker.innerCheck(sub.toCharArray(), origin.toCharArray()));
-
     }
 }

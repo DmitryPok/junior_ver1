@@ -1,11 +1,9 @@
 package ru.job4j.array;
-
 /**
  * @author Dmitry Poklonov (d.poklonov@mail.ru)
  * @version $Id$
  * @since 0.1
  */
-
 public class Matrix {
     /**
      * Отвечает на вопросы.
@@ -13,7 +11,6 @@ public class Matrix {
      * @param size размер массива
      * @return Массив квадратов.
      */
-
     int[][] multiple(int size) {
         size = size + 1;
         int[][] matr = new int[size][size];
@@ -31,10 +28,8 @@ public class Matrix {
             }
             System.out.println();
         }
-
         return matrFin;
     }
-
     public static void main(String[] args) {
         Matrix matrix = new Matrix();
         matrix.multiple(9);

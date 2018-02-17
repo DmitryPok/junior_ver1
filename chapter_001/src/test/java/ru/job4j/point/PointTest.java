@@ -1,10 +1,8 @@
-package ru.ru.job4j.point;
-
+package ru.job4j.point;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Test.
  *

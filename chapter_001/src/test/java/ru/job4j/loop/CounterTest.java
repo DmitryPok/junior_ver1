@@ -1,5 +1,4 @@
-package ru.ru.job4j.loop;
-
+package ru.job4j.loop;
 /**
  * Triangle.
  *
@@ -7,18 +6,14 @@ package ru.ru.job4j.loop;
  * @version $Id$
  * @since 0.1
  */
-
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
-
 /**
  * Loop test.
  */
 public class CounterTest {
-
     /**
      *
      */

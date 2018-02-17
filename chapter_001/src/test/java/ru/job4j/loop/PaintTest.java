@@ -1,10 +1,8 @@
 package ru.job4j.loop;
-
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Loop test.
  */
@@ -17,7 +15,6 @@ public class PaintTest {
         String expected = String.format(" ^ %s^^^", ln);
         assertThat(result, is(expected));
     }
-
     @Test
     public void whenPiramidWithHeightThreeThenStringWithThreeRows() {
         Paint paint = new Paint();

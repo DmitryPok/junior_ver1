@@ -1,11 +1,9 @@
-package ru.ru.job4j.array;
-
+package ru.job4j.array;
 import org.junit.Test;
 
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Array test.
  */
@@ -18,7 +16,6 @@ public class TurnTest {
         int[] expected = new int[] {4, 3, 2, 1};
         assertThat(result, is(expected));
     }
-
     @Test
     public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
         Turn arr = new Turn();

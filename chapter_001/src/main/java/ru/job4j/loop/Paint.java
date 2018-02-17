@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 /**
  * Paint.
  *
@@ -7,9 +6,7 @@ package ru.job4j.loop;
  * @version $Id$
  * @since 0.1
  */
-
 public class Paint {
-
     /**
      * determine lenght, width.
      */

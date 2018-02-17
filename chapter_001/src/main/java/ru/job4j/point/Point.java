@@ -1,4 +1,4 @@
-package ru.ru.job4j.point;
+package ru.job4j.point;
 /**
  * Point.
  *
@@ -6,28 +6,21 @@ package ru.ru.job4j.point;
  * @version $Id$
  * @since 0.1
  */
-
 public class Point {
-
     /**
      *
      * determine x.
      */
-
     private double x;
-
     /**
      * determine y.
      *
      */
-
     private double y;
-
     /**
      * @param x x.
      * @param y y.
      */
-
     public  Point(double x, double y) {
         this.x = x;
         this.y = y;
@@ -66,6 +59,5 @@ public class Point {
      */
     public double distance(Point point) {
           return  Math.sqrt(Math.pow(point.y - y, 2) + Math.pow(point.x - x, 2));
-
     }
 }
