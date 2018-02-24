@@ -27,6 +27,7 @@ public class  ArrayDuplicate {
             }
         return Arrays.copyOf(array, uniq);
     }
+
     public static void main(String[] args) {
         ArrayDuplicate dupl = new ArrayDuplicate();
         String[] first = {"Привет", "Мир", "Привет", "Супер", "Мир"};

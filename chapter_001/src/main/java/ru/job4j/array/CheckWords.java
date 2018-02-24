@@ -30,6 +30,7 @@ public class  CheckWords {
         }
         return verdict;
     }
+    
     public static void main(String[] args) {
         CheckWords cheker = new CheckWords();
         String origin = "Привет";

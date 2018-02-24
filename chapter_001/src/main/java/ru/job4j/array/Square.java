@@ -19,6 +19,7 @@ public class Square {
         }
         return rst;
     }
+
     public static void main(String[] args) {
         Square sqr = new Square();
         sqr.calculate(5);

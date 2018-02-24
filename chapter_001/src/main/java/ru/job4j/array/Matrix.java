@@ -29,7 +29,8 @@ public class Matrix {
             System.out.println();
         }
         return matrFin;
-    }
+   }
+
     public static void main(String[] args) {
         Matrix matrix = new Matrix();
         matrix.multiple(9);

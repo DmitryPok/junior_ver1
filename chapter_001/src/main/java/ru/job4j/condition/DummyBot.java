@@ -20,6 +20,7 @@ public class DummyBot {
         } 
         return rsl;
      }
+     
      public static void main(String[] args) {
         DummyBot bot = new DummyBot();
         Scanner in = new Scanner(System.in);

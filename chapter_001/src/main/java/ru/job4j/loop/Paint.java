@@ -33,6 +33,7 @@ public class Paint {
         }
         return line;
     }
+    
     public static void main(String[] args) {
         Paint pira = new Paint();
         System.out.println(pira.piramid(3));
